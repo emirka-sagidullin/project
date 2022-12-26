@@ -4,9 +4,9 @@ from django.views.generic.edit import CreateView
 from .models import Books
 
 
-class LibraryListView(ListView):
-    model = Books
-    template_name = 'home.html'
+def LibraryList(request,category):
+    books = Books.objects.filter(Category=category)
+    return render(request, 'home.html',{'books':books})
 
 class LibraryDetailView(DetailView):
     model = Books
