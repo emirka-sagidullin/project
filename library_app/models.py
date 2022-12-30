@@ -14,3 +14,4 @@ class Books(models.Model):
     Authors = models.TextField()
     date = models.CharField(max_length=50)
     sale = models.IntegerField()
+
