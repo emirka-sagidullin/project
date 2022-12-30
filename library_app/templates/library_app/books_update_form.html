@@ -7,11 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    {%for i in books%}
-    {{i.title}}
-    {{i.image}}
-    {{i.Authors}}
-    {{i.sale}}
-    {%endfor%}
+    <form method="post">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Update">
+    </form>
 </body>
 </html>

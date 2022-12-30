@@ -7,11 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    {%for i in books%}
-    {{i.title}}
-    {{i.image}}
-    {{i.Authors}}
-    {{i.sale}}
-    {%endfor%}
+    <form method="post">{% csrf_token %}
+        <p>Хочешь удалить книгу?</p>
+        {{ form }}
+        <input type="submit" value="Confirm">
+    </form>
 </body>
 </html>

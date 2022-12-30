@@ -10,6 +10,7 @@ class Books(models.Model):
     title =  models.CharField(max_length=255)
     Category = models.ForeignKey(Category,on_delete=models.CASCADE)
     description = models.TextField()
-    image =models.FileField(upload_to='img/')
+    image =models.FileField(upload_to='img/',blank=True)
     Authors = models.TextField()
     date = models.CharField(max_length=50)
+    sale = models.IntegerField()
