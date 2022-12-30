@@ -1,0 +1,77 @@
+input{
+    outline: none;
+    border: none;
+}
+
+button{
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 324px;
+    height: 300px;
+    background: url('../img/ALPHA\ Bookstore_LOGO_DARK-VER.svg')no-repeat center center/cover;
+}
+
+.autorization{
+    margin-top: 50px;
+}
+
+.autorization__usernameClean{
+    width: 14px;
+    height: 14px;
+    background: url('../img/xmark.circle.fill.svg')no-repeat center center/cover;
+    margin-right: 10px;
+}
+
+.autorization__passwordHide{
+    width: 14px;
+    height: 13px;
+    background: url('../img/bi_eye-fill.svg')no-repeat center center/cover;
+    margin-right: 10px;
+}
+
+.autorization__username{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #8E8E93;
+    border-radius: 4px;
+}
+
+.autorization__password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #8E8E93;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.autorization__usernameInput{
+    padding: 10px 100px 10px 30px;
+}
+
+.autorization__passwordInput{
+    padding: 10px 100px 10px 30px;
+}
+
+.autorization__sendButton{
+    margin-top: 20px;
+}
+
+.autorization__send{
+    background: #EA5757;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 10px 150px 10px 150px;
+}

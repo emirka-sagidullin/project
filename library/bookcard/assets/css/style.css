@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.card__add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__image{
+    width: 180px;
+    height: 300px;
+    background: url(../img/image103.png)no-repeat center center/cover; 
+}
+
+.card__addButton{
+    margin-top: 30px;
+    padding: 10px 120px;
+    background: #D45555;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.book__name{
+    border: 1px solid #b3b3b3;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.book__autor{
+    border: 1px solid #b3b3b3;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.book__overview{
+    border: 1px solid #b3b3b3;
+    padding: 10px 40px;
+    border-radius: 30px;
+}

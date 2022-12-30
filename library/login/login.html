@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"></div>
+    <form class="autorization">
+        <div class="autorization__username">
+            <input type="text" id="username" class="autorization__usernameInput" placeholder="Username">
+            <button type="reset" id="clearButton" class="autorization__usernameClean"></button>
+        </div>
+        <div class="autorization__password">
+            <input type="password" id="password" class="autorization__passwordInput" placeholder="Password">
+            <button type="button" id="passwordHide" onclick="hidePassword()" class="autorization__passwordHide"></button>
+        </div>
+        <div class="autorization__sendButton">
+            <button class="autorization__send">Login</button>
+        </div>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
