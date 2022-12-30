@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap'); </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__libraryName">AliBebrarry</div>
+            <div class="header__navigationButtons">
+                <button class="header__navigationButton">Logout</button>
+                <button class="header__navigationButton">My books</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="title">
+            <div class="title__text">
+                <div class="title__greeting">Hello, name</div>
+                <div class="title__question">What do you want to read today?</div>
+            </div>
+            <div class="title__searchBlock">
+                <div class="title__search">
+                    <div class="title__loopBlock">
+                        <button class="title__loop"></button>
+                    </div>
+                    <input class="title__searchInput" type="text" placeholder="Search here...">
+                    <div class="title__voiceInputBlock">
+                        <button class="title__voiceInput"></button>
+                    </div>
+                    <div class="title__optionsBlock">
+                        <button class="title__options"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <button class="categories__category">Novel</button>
+            <button class="categories__category">Comedy</button>
+            <button class="categories__category">Horrors</button>
+            <button class="categories__category">Action</button>
+            <button class="categories__category">Fantasy</button>
+        </div>
+        <div class="books">
+            <!-- Пример вывода книги -->
+            <div class="books__book">
+                <div class="books__image"></div>
+                <div class="books__name"></div>
+                <div class="books__autor"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
